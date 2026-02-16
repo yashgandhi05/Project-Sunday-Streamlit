@@ -6,6 +6,8 @@ import google.generativeai as genai
 import musicLibrary
 import threading 
 
+########################################
+
 st.set_page_config(page_title="Sunday Voice Assistant", page_icon="🌞", layout="centered")
 
 genai.configure(api_key="AIzaSyDLM2ba1zd3CEexQKPdvDv-xjcUmd2vevc")
